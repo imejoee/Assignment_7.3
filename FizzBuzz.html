@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+<!--Script for multiples of 3 and 5-->
+  <script>
+  	for (steps = 1; steps <= 100; steps++) {
+  	if(steps % 3 == 0 && steps % 5 == 0) {document.write(steps + "FizzBuzz" + "<br>");
+    }
+    else if (steps % 3 == 0) {document.write(steps + "Fizz" + "<br>");
+    }
+    else if (steps % 5 == 0) {document.write(steps + "Buzz" + "<br>");
+    }
+    if ( ( steps % 3 !=0) && (steps % 5 != 0 ) ) {document.write(steps + "<br>")}
+    }
+  </script>
+</body>
+</html>	
